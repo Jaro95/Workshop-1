@@ -8,4 +8,4 @@ Aplikacja posiada następujące funkcje:
 * usuwanie zadania,
 * wczytywanie danych z pliku przy starcie aplikacji,
 * zapis danych do pliku,
-* sprawdzanie poprawność wartości liczbowej podczas usuwania.
+* sprawdzanie poprawności wartości liczbowej podczas usuwania.
