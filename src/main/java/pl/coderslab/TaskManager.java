@@ -1,6 +1,5 @@
 package pl.coderslab;
 
-
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import java.io.IOException;
@@ -65,6 +64,9 @@ public class TaskManager {
         }
         for (String line : Files.readAllLines(path)) {
             words.add(line);
+        }
+        if (words.isEmpty()) {
+            return;
         }
         fillArrayTasksFromFile(words);
     }
